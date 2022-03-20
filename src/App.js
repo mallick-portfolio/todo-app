@@ -1,9 +1,9 @@
-import Home from "./components/pages/Home";
+import Menubar from "./components/Header/Menubar";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Menubar />
     </div>
   );
 }
