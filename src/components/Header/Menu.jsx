@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Menu = () => {
+const Menu = ({ menu }) => {
   return (
     <li className="nav-item">
-      <a className="nav-link active" aria-current="page" href="/">
-        Home
-      </a>
+      <Link className="nav-link active" to={menu.url}>
+        {menu.title}
+      </Link>
     </li>
   );
 };
