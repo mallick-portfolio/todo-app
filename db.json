@@ -2,13 +2,11 @@
   "users": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "id": 2,
-      "title": "json-server",
-      "author": "typicode"
+      "firstName": "Tamal",
+      "lastName": "Mallick",
+      "userName": "tamal",
+      "email": "tamal@gmail.com",
+      "phone": 1111111111
     }
   ]
 }
