@@ -18,7 +18,9 @@ const UserList = ({ users }) => {
               </tr>
             </thead>
             <tbody>
-              {users.map(user=><UserCard key={user.id} user={user} />)}
+              {users.map((user) => (
+                <UserCard key={user.id} user={user} />
+              ))}
             </tbody>
           </table>
         </Col>

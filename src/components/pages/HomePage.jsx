@@ -17,7 +17,11 @@ const HomePage = () => {
     getAllUsers();
   }, []);
 
-  return <div>{users.length > 0 && <UserList users={users} />}</div>;
+  return (
+    <div>
+      {users.length > 0 && <UserList users={users} />}
+    </div>
+  );
 };
 
 export default HomePage;

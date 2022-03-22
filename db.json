@@ -2,7 +2,7 @@
   "users": [
     {
       "id": "68963a34-451a-4431-94a6-e13de036f477",
-      "firstName": "Tamal",
+      "firstName": "Tamal dj",
       "lastName": "Mallick",
       "userName": "tamalcseiu@gmail.com",
       "email": "tamalcseiu@gmail.com",
@@ -15,6 +15,14 @@
       "userName": "tamalcseiu@gmail.com",
       "email": "tamal1714019@gmail.com",
       "phone": "183622"
+    },
+    {
+      "id": "0bb4e7e5-dce3-48f4-98cc-2046491a4929",
+      "firstName": "Kamal",
+      "lastName": "khan",
+      "userName": "abn",
+      "email": "tamalcseiu@gmail.com",
+      "phone": "01836226095"
     }
   ]
 }
