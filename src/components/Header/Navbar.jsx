@@ -1,16 +1,14 @@
-import React from "react";
-import Menu from "./Menu";
-import { menus } from "./menus";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
 import { Link } from "react-router-dom";
 
-const Menubar = () => {
+const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
-        <Link to="/" className="navbar-brand">
-          TODO
+        <Link to={"/"} className="navbar-brand">
+          Todo
         </Link>
         <button
           className="navbar-toggler"
@@ -25,16 +23,20 @@ const Menubar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-            {menus.map((menu, index) => (
-              <Menu key={index} menu={menu} />
-            ))}
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="/">
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/">
+                Link
+              </a>
+            </li>
           </ul>
           <div className="d-flex">
-            <Link
-              to="/users/add"
-              className="btn btn-outline-success text-white"
-            >
-              <FontAwesomeIcon icon={faPlus} /> Add User
+            <Link className="btn btn-outline-success" to={"/users/add"}>
+              <FontAwesomeIcon icon={faPlus} /> Add New User
             </Link>
           </div>
         </div>
@@ -43,4 +45,4 @@ const Menubar = () => {
   );
 };
 
-export default Menubar;
+export default Navbar;

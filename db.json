@@ -1,12 +1,20 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "68963a34-451a-4431-94a6-e13de036f477",
       "firstName": "Tamal",
       "lastName": "Mallick",
-      "userName": "tamal",
-      "email": "tamal@gmail.com",
-      "phone": 1111111111
+      "userName": "tamalcseiu@gmail.com",
+      "email": "tamalcseiu@gmail.com",
+      "phone": "183622"
+    },
+    {
+      "id": "572c920e-bf97-4fed-84b8-d9b89966214a",
+      "firstName": "Tamal",
+      "lastName": "Mallick",
+      "userName": "tamalcseiu@gmail.com",
+      "email": "tamal1714019@gmail.com",
+      "phone": "183622"
     }
   ]
 }
